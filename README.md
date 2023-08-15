@@ -1,27 +1,12 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Чат бот по описанному заданию.
+Использовал: 
+TypeScript, React, сборку с Vite, Axios, SCSS. Также добавлена небольшая анимация на отправленные сообщения.
+В данной работе ответ бота объединил ответов бота из чанков в полноценное сообщение, учёл статус предоставляемого ответа "done" и "content".
+Сообщения со стороны пользователя рендарятся подряд исходя из того, что вводит. Сообщение бота всегда в нижней части чата, постоянно обновляется при поступлении сообщения пользователя.
+Принял решение сделать так, потому как из задания было не совсем очевидно как выводить сообщения и показалось, что объединение отдельно символов было бы логичней. 
 
-Currently, two official plugins are available:
+Буду рад проверки моей работы и её оценки, если моментами не верно понял задание также не составит труда переделать или выполнить иное задание.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+На данном этапе хотел показать как умею работать с изученными инструментами (конечно, это не всё) и буду рад изучить что-либо новое или закрепить нынешние знания в уже изученном, работая в профессиональной команде! 
