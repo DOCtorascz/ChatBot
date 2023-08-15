@@ -1,0 +1,20 @@
+.container {
+  max-width: 791px;
+  margin: 0 auto;
+  padding: 0 5px; }
+
+.header__nameChat {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  margin-bottom: 27px; }
+  .header__nameChat .header__name {
+    font-size: 57.695px;
+    font-weight: 700;
+    line-height: 89.427px;
+    text-transform: capitalize;
+    margin-bottom: 21px; }
+  .header__nameChat .header__infoChat {
+    font-size: 18.211px;
+    line-height: 28.226px; }
+
+/*# sourceMappingURL=chatPage.css.map */

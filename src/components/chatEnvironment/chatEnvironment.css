@@ -1,0 +1,27 @@
+.message {
+  border-radius: 16px;
+  border: 1px solid #FFF;
+  background: #FFF;
+  min-height: 623px;
+  padding: 36px 19px;
+  margin-bottom: 30px; }
+  .message .message__person-one {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 17px; }
+  .message .avatarOne {
+    margin-right: 13px; }
+  .message .message__text {
+    border-radius: 28px;
+    background: rgba(34, 118, 245, 0.2);
+    padding: 12px 20px;
+    max-width: 400px;
+    text-align: start; }
+  .message .message__person-two {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 17px; }
+  .message .avatarTwo {
+    margin-left: 13px; }
+
+/*# sourceMappingURL=chatEnvironment.css.map */

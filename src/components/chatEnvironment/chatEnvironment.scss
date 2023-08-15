@@ -1,0 +1,79 @@
+.message {
+  border-radius: 16px;
+  border: 1px solid #FFF;
+  background: #FFF;
+  height: 623px;
+  max-height: 623px;
+  padding: 36px 19px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  .message__inner {
+    overflow: auto;
+  }
+
+  .message__person-one {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 17px;
+  }
+
+  .avatarOne {
+    margin-right: 13px;
+  }
+
+  .message__text {
+    border-radius: 28px;
+    background: rgba(34, 118, 245, 0.20);
+    padding: 12px 20px;
+    max-width: 400px;
+    text-align: start;
+    word-break: break-all;
+    max-height: 270px;
+    overflow: auto;
+  }
+
+  .textTwo {
+    animation-name: messageAdd;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .textOne {
+    animation-name: messageAddTwo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .message__person-two {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 17px;
+  }
+
+  .avatarTwo {
+    margin-left: 13px;
+  }
+}
+
+@keyframes messageAdd {
+  0% {
+    background: rgba(34, 118, 245, 0.20);
+  }
+
+  100% {
+    background: rgba(150, 127, 24, 0.2);
+  }
+}
+
+@keyframes messageAddTwo {
+  0% {
+    background: rgba(184, 18, 18, 0.836);
+  }
+
+  100% {
+    background: rgba(125, 13, 148, 0.2);
+  }
+}

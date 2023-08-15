@@ -1,0 +1,16 @@
+.message-add {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .message-add__text {
+    width: 100%;
+    padding: 20px 70px 20px 28px;
+    border: none;
+  }
+  .message-add__text-add {
+    position: absolute;
+    right: 16px;
+    border: none;
+  }
+}
